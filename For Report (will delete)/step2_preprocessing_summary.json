@@ -1,0 +1,51 @@
+{
+    "Original_Shape": [
+        231,
+        14
+    ],
+    "Final_Shape": [
+        231,
+        14
+    ],
+    "Rows_Removed": 0,
+    "Missing_Values": {
+        "Budget": "1 imputed with median",
+        "Screens": "10 imputed with median",
+        "Aggregate_Followers": "35 imputed with median"
+    },
+    "Outlier_Treatment": {
+        "Method": "Winsorization (capping at 1st and 99th percentiles)",
+        "Features": [
+            "Budget",
+            "Gross",
+            "Views",
+            "Likes",
+            "Comments",
+            "Aggregate Followers"
+        ],
+        "Total_Values_Capped": 35,
+        "Avg_Std_Reduction": "32.55%"
+    },
+    "Scaling": {
+        "Method": "StandardScaler",
+        "Features_Scaled": [
+            "Year",
+            "Genre",
+            "Gross",
+            "Budget",
+            "Screens",
+            "Sequel",
+            "Sentiment",
+            "Views",
+            "Likes",
+            "Dislikes",
+            "Comments",
+            "Aggregate Followers"
+        ],
+        "Available_In": "step2_preprocessed_data_scaled.csv"
+    },
+    "Recommendations": {
+        "Tree_Based": "Use step2_preprocessed_data.csv",
+        "Distance_Based": "Use step2_preprocessed_data_scaled.csv"
+    }
+}

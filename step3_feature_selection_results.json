@@ -1,0 +1,68 @@
+{
+    "Method_1_Correlation": {
+        "selected_features": [
+            "Gross",
+            "Budget",
+            "Dislikes",
+            "Sentiment",
+            "Genre",
+            "Sequel"
+        ],
+        "scores": {
+            "Gross": 0.35580375651757556,
+            "Budget": 0.2855464945380459,
+            "Dislikes": 0.18742231131150305,
+            "Sentiment": 0.14318226622664207,
+            "Genre": 0.11673532294395812,
+            "Sequel": 0.10570111346055439
+        }
+    },
+    "Method_2_RFE": {
+        "selected_features": [
+            "Gross",
+            "Budget",
+            "Screens",
+            "Sentiment",
+            "Dislikes",
+            "Comments"
+        ],
+        "rankings": {
+            "Year": 7,
+            "Genre": 4,
+            "Gross": 1,
+            "Budget": 1,
+            "Screens": 1,
+            "Sequel": 6,
+            "Sentiment": 1,
+            "Views": 5,
+            "Likes": 3,
+            "Dislikes": 1,
+            "Comments": 1,
+            "Aggregate Followers": 2
+        }
+    },
+    "Method_3_Tree_Based": {
+        "selected_features": [
+            "Gross",
+            "Sentiment",
+            "Dislikes",
+            "Budget",
+            "Screens",
+            "Comments"
+        ],
+        "importances": {
+            "Year": 0.010120292446887629,
+            "Genre": 0.07894003886431199,
+            "Gross": 0.188095241057804,
+            "Budget": 0.11276248527576768,
+            "Screens": 0.09105297669093053,
+            "Sequel": 0.01567243495131938,
+            "Sentiment": 0.12066943094271637,
+            "Views": 0.042679962974882295,
+            "Likes": 0.06474019354542394,
+            "Dislikes": 0.11501497666814377,
+            "Comments": 0.08593226419659619,
+            "Aggregate Followers": 0.0743197023852163
+        }
+    }
+}

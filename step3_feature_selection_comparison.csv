@@ -1,0 +1,13 @@
+Feature,Method 1 (Corr),Method 2 (RFE),Method 3 (Tree),Selected Count
+Budget,/,/,/,3
+Gross,/,/,/,3
+Dislikes,/,/,/,3
+Sentiment,/,/,/,3
+Comments,,/,/,2
+Screens,,/,/,2
+Sequel,/,,,1
+Genre,/,,,1
+Year,,,,0
+Views,,,,0
+Likes,,,,0
+Aggregate Followers,,,,0
