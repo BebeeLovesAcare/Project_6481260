@@ -1,0 +1,19 @@
+DECISION TREE CLASSIFICATION RULES
+============================================================
+
+|--- Gross <= 1.25
+|   |--- Sentiment <= -0.33
+|   |   |--- Budget <= -0.74
+|   |   |   |--- class: 0
+|   |   |--- Budget >  -0.74
+|   |   |   |--- class: 0
+|   |--- Sentiment >  -0.33
+|   |   |--- Dislikes <= -0.03
+|   |   |   |--- class: 1
+|   |   |--- Dislikes >  -0.03
+|   |   |   |--- class: 0
+|--- Gross >  1.25
+|   |--- Sentiment <= -0.33
+|   |   |--- class: 1
+|   |--- Sentiment >  -0.33
+|   |   |--- class: 1
